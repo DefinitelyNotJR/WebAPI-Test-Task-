@@ -8,7 +8,7 @@ namespace Parser.Services.DataService
 {
     public class DbDataService : IDataService
     {
-        private const string ConnectionString = "[DB LOCATION]";
+        private const string ConnectionString = "C:/Code/1/WebAPI-Test-Task-/WebApiDB.db";
         private const string DeleteQuery = "DELETE FROM \"rss_item\"";
         private const string UpdateQuery = "INSERT INTO \"rss_item\"(\"source\", " +
                                       "\"title\", \"link\", \"date\") " +

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APIUtils\\APIUtils.csproj",
+      "projectUniqueName": "C:\\Code\\1\\WebAPI-Test-Task-\\APIUtils\\APIUtils.csproj",
       "projectName": "APIUtils",
-      "projectPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APIUtils\\APIUtils.csproj",
+      "projectPath": "C:\\Code\\1\\WebAPI-Test-Task-\\APIUtils\\APIUtils.csproj",
       "packagesPath": "C:\\Users\\Yankee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APIUtils\\obj\\",
+      "outputPath": "C:\\Code\\1\\WebAPI-Test-Task-\\APIUtils\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

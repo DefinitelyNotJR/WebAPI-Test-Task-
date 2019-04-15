@@ -8,4 +8,8 @@
       <ProjectReference Include="..\APITypes\APITypes.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SQLite" Version="2.2.4" />
+  </ItemGroup>
+
 </Project>

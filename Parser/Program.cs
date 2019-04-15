@@ -29,7 +29,7 @@ namespace Parser
             }
             try
             {
-                await GetNews(RssSource.CNN);
+                await GetNews(RssSource.Google);
             }
             catch (Exception ex)
             {
@@ -51,9 +51,9 @@ namespace Parser
                     rssService = new RssServiceBBC();
                     sourceName = "BBC";
                     break;
-                case RssSource.CNN:
-                    rssService = new RssServiceCNN();
-                    sourceName = "CNN";
+                case RssSource.Google:
+                    rssService = new RssServiceGoogle();
+                    sourceName = "Google";
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();

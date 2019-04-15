@@ -25,3 +25,12 @@ C:\Code\Test\TestTask-WebAPI\APITypes\obj\Debug\netcoreapp2.1\APITypes.AssemblyI
 C:\Code\Test\TestTask-WebAPI\APITypes\obj\Debug\netcoreapp2.1\APITypes.AssemblyInfo.cs
 C:\Code\Test\TestTask-WebAPI\APITypes\obj\Debug\netcoreapp2.1\APITypes.dll
 C:\Code\Test\TestTask-WebAPI\APITypes\obj\Debug\netcoreapp2.1\APITypes.pdb
+C:\Code\1\WebAPI-Test-Task-\APITypes\bin\Debug\netcoreapp2.1\APITypes.deps.json
+C:\Code\1\WebAPI-Test-Task-\APITypes\bin\Debug\netcoreapp2.1\APITypes.dll
+C:\Code\1\WebAPI-Test-Task-\APITypes\bin\Debug\netcoreapp2.1\APITypes.pdb
+C:\Code\1\WebAPI-Test-Task-\APITypes\obj\Debug\netcoreapp2.1\APITypes.csprojAssemblyReference.cache
+C:\Code\1\WebAPI-Test-Task-\APITypes\obj\Debug\netcoreapp2.1\APITypes.csproj.CoreCompileInputs.cache
+C:\Code\1\WebAPI-Test-Task-\APITypes\obj\Debug\netcoreapp2.1\APITypes.AssemblyInfoInputs.cache
+C:\Code\1\WebAPI-Test-Task-\APITypes\obj\Debug\netcoreapp2.1\APITypes.AssemblyInfo.cs
+C:\Code\1\WebAPI-Test-Task-\APITypes\obj\Debug\netcoreapp2.1\APITypes.dll
+C:\Code\1\WebAPI-Test-Task-\APITypes\obj\Debug\netcoreapp2.1\APITypes.pdb

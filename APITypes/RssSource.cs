@@ -6,6 +6,6 @@ namespace APITypes
     {
         Undefined = 0,
         BBC = 1,
-        CNN = 2
+        Google = 2
     }
 }

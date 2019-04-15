@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj": {}
+    "C:\\Code\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj": {
+    "C:\\Code\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj",
+        "projectUniqueName": "C:\\Code\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj",
         "projectName": "APITypes",
-        "projectPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj",
+        "projectPath": "C:\\Code\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj",
         "packagesPath": "C:\\Users\\Yankee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\obj\\",
+        "outputPath": "C:\\Code\\1\\WebAPI-Test-Task-\\APITypes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

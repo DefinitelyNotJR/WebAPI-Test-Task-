@@ -10,13 +10,13 @@ using APIUtils;
 
 namespace Parser.Services.RssService
 {
-    public class RssServiceCNN : IRssService
+    public class RssServiceGoogle : IRssService
     {
-        private const string UrlCNN = "http://rss.cnn.com/rss/edition.rss";
+        private const string UrlGoogle = "https://news.google.com/rss";
         public async Task<RssItem[]> GetRssItems()
         {
             var result = new List<RssItem>();
-            var rssResult = await HttpRequestUtils.GetAsync(UrlCNN);
+            var rssResult = await HttpRequestUtils.GetAsync(UrlGoogle);
 
             var document = XDocument.Parse(rssResult.ToString());
             var xmlItems = document.Descendants("item");
@@ -24,7 +24,7 @@ namespace Parser.Services.RssService
             {
                 var rssItem = new RssItem
                 {
-                    Source = RssSource.CNN,
+                    Source = RssSource.Google,
                     Title = xmlItem.Elements().First(x => x.Name == "title").Value,
                     Link = xmlItem.Elements().First(x => x.Name == "link").Value,
                     Date = Convert.ToDateTime(xmlItem.Elements().First(x => x.Name == "pubDate").Value)

@@ -34,3 +34,15 @@ C:\Code\Test\TestTask-WebAPI\APIData\obj\Debug\netcoreapp2.1\APIData.AssemblyInf
 C:\Code\Test\TestTask-WebAPI\APIData\obj\Debug\netcoreapp2.1\APIData.csproj.CopyComplete
 C:\Code\Test\TestTask-WebAPI\APIData\obj\Debug\netcoreapp2.1\APIData.dll
 C:\Code\Test\TestTask-WebAPI\APIData\obj\Debug\netcoreapp2.1\APIData.pdb
+C:\Code\1\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APIData.deps.json
+C:\Code\1\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APIData.dll
+C:\Code\1\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APIData.pdb
+C:\Code\1\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APITypes.dll
+C:\Code\1\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APITypes.pdb
+C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.csprojAssemblyReference.cache
+C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.csproj.CoreCompileInputs.cache
+C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.AssemblyInfoInputs.cache
+C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.AssemblyInfo.cs
+C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.csproj.CopyComplete
+C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.dll
+C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.pdb
