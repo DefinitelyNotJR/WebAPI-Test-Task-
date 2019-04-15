@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APIData\\APIData.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APIData\\APIData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APIData\\APIData.csproj",
+        "projectName": "APIData",
+        "projectPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APIData\\APIData.csproj",
+        "packagesPath": "C:\\Users\\Yankee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APIData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yankee\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj": {
+                "projectPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj",
+        "projectName": "APITypes",
+        "projectPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj",
+        "packagesPath": "C:\\Users\\Yankee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yankee\\1\\WebAPI-Test-Task-\\APITypes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yankee\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
