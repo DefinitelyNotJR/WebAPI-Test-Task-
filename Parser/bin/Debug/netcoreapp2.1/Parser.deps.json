@@ -141,7 +141,8 @@
       },
       "APIData/1.0.0": {
         "dependencies": {
-          "APITypes": "1.0.0"
+          "APITypes": "1.0.0",
+          "Microsoft.Data.Sqlite": "2.2.4"
         },
         "runtime": {
           "APIData.dll": {}

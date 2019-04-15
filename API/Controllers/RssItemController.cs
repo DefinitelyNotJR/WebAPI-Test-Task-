@@ -14,7 +14,7 @@ namespace API.Controllers
     [ApiController]
     public class RssItemController : Controller
     {
-        private readonly IRssItemRepos _rssItemRepos = new RssItemRepos();
+        private readonly IRssItemRepos _rssItemRepos;
 
         // GET api/values/5
         [HttpGet("{id}")]

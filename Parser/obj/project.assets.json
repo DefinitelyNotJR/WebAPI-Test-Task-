@@ -357,7 +357,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "APITypes": "1.0.0"
+          "APITypes": "1.0.0",
+          "Microsoft.Data.SQLite": "2.2.4"
         },
         "compile": {
           "bin/placeholder/APIData.dll": {}

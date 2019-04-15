@@ -10,7 +10,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using System.Data.SQLite.Core;
 using APIData.Repos.RssItemRepos;
 
 namespace API
@@ -29,7 +28,6 @@ namespace API
         {
             services.AddScoped<IRssItemRepos>(opt => new RssItemRepos(Configuration["DefaultConnection"]));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

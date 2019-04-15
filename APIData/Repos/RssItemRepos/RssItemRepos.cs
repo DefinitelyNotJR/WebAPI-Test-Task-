@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using APIData.Entities;
 using APITypes;
@@ -9,7 +10,7 @@ namespace APIData.Repos.RssItemRepos
     {
         private readonly string _connectionString;
 
-        public RssItemRepository(string connectionString)
+        public RssItemRepos(string connectionString)
         {
             _connectionString = connectionString;
         }
@@ -36,7 +37,7 @@ namespace APIData.Repos.RssItemRepos
                             Source = (RssSource)reader.GetInt32(1),
                             Title = reader.GetString(2),
                             Link = reader.GetString(3),
-                            Date = reader.GetString(4)
+                            Date = Convert.ToDateTime(reader.GetString(4))
                         };
                     }
                 }
