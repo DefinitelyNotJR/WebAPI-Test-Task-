@@ -1018,35 +1018,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yankee\\.nuget\\packages\\": {},
+    "C:\\Users\\Trading\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\1\\WebAPI-Test-Task-\\APIData\\APIData.csproj",
+      "projectUniqueName": "C:\\Users\\Trading\\Desktop\\heheheh\\WebAPI-Test-Task-\\APIData\\APIData.csproj",
       "projectName": "APIData",
-      "projectPath": "C:\\Code\\1\\WebAPI-Test-Task-\\APIData\\APIData.csproj",
-      "packagesPath": "C:\\Users\\Yankee\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\1\\WebAPI-Test-Task-\\APIData\\obj\\",
+      "projectPath": "C:\\Users\\Trading\\Desktop\\heheheh\\WebAPI-Test-Task-\\APIData\\APIData.csproj",
+      "packagesPath": "C:\\Users\\Trading\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Trading\\Desktop\\heheheh\\WebAPI-Test-Task-\\APIData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yankee\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Trading\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Code\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj": {
-              "projectPath": "C:\\Code\\1\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj"
+            "C:\\Users\\Trading\\Desktop\\heheheh\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj": {
+              "projectPath": "C:\\Users\\Trading\\Desktop\\heheheh\\WebAPI-Test-Task-\\APITypes\\APITypes.csproj"
             }
           }
         }

@@ -46,3 +46,15 @@ C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.AssemblyInfo
 C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.csproj.CopyComplete
 C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.dll
 C:\Code\1\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.pdb
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APIData.deps.json
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APIData.dll
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APIData.pdb
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APITypes.dll
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\bin\Debug\netcoreapp2.1\APITypes.pdb
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.csprojAssemblyReference.cache
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.csproj.CoreCompileInputs.cache
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.AssemblyInfoInputs.cache
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.AssemblyInfo.cs
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.csproj.CopyComplete
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.dll
+C:\Users\Trading\Desktop\heheheh\WebAPI-Test-Task-\APIData\obj\Debug\netcoreapp2.1\APIData.pdb

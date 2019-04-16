@@ -11,10 +11,21 @@ using APIData.Repos;
 namespace API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
-    public class RssItemController : Controller
+    public class RssItemController : ControllerBase
     {
         private readonly IRssItemRepos _rssItemRepos;
+
+        public RssItemController(IRssItemRepos rssItemRepos)
+        {
+            _rssItemRepos = rssItemRepos;
+        }
+
+        [HttpGet]
+
+        public async Task<RssItem[]> Get()
+        {
+            return await _rssItemRepos.GetAll();
+        }
 
         // GET api/values/5
         [HttpGet("{id}")]

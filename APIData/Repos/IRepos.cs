@@ -5,6 +5,7 @@ namespace APIData.Repos
 {
     public interface IRepos<T> where T : BaseEntity
     {
-         Task<T> Get(long id);
+        Task<T> Get(long id);
+        Task<RssItem[]> GetAll();
     }
 }
