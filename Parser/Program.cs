@@ -16,8 +16,14 @@ namespace Parser
 
         private async Task MainAsync()
         {
-
-            await _dataService.ClearDataAsync();
+            try
+            {
+                await _dataService.ClearDataAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
 
             try
             {
@@ -67,17 +73,6 @@ namespace Parser
 
             Console.WriteLine($"Received {items.Length} items");
 
-
-
-            // rssService = new RssServiceBBC();
-
-            // var rssItems = await rssService.GetRssItems();
-
-            // Console.WriteLine($"Received {rssItems.Length} items");
-
-            // await _dataService.SaveRssItemsAsync(rssItems);
-
-            // Console.WriteLine("Done");
         }
     }
 }

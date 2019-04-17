@@ -8,7 +8,8 @@ namespace Parser.Services.DataService
 {
     public class DbDataService : IDataService
     {
-        private const string ConnectionString = "SQLITE DB LOCATION";
+        //Commands for SQlite database
+        private const string ConnectionString = "[SQLITE DB LOCATION]";
 
         private const string DeleteQuery = "DELETE FROM \"rss_item\"";
 
@@ -21,6 +22,7 @@ namespace Parser.Services.DataService
             var connectionStringBuilder = new SqliteConnectionStringBuilder();
             connectionStringBuilder.DataSource = ConnectionString;
 
+            //Connecting to database and deleting all items
             using (var connection = new SqliteConnection(connectionStringBuilder.ConnectionString))
             {
                 await connection.OpenAsync();
@@ -37,6 +39,7 @@ namespace Parser.Services.DataService
             var connectionStringBuilder = new SqliteConnectionStringBuilder();
             connectionStringBuilder.DataSource = ConnectionString;
 
+            //Adding items with parameters to database
             using (var connection = new SqliteConnection(connectionStringBuilder.ConnectionString))
             {
                 await connection.OpenAsync();

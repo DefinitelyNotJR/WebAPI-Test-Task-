@@ -9,7 +9,7 @@ namespace APIData.Repos.RssItemRepos
 {
     public class RssItemRepos : IRssItemRepos
     {
-        
+        //Commands for SQlite database
         private const string SelectById = "SELECT \"id\", \"source\", \"title\", \"link\", \"date\" " +
                                                   "FROM \"rss_item\" " +
                                                   "WHERE \"id\" = @id";
@@ -17,6 +17,8 @@ namespace APIData.Repos.RssItemRepos
         private const string SelectAll = "SELECT \"id\", \"source\", \"title\", \"link\", \"date\" " +
                                               "FROM \"rss_item\" " +
                                               "ORDER BY \"id\"";
+
+        //Getting connection string for database
         private string v;
 
         public RssItemRepos(string v)
@@ -29,6 +31,7 @@ namespace APIData.Repos.RssItemRepos
             var connectionStringBuilder = new SqliteConnectionStringBuilder();
             connectionStringBuilder.DataSource = v;
 
+            //connecting to database and getting data
             using (var connection = new SqliteConnection(connectionStringBuilder.ConnectionString))
             {
                 await connection.OpenAsync();
@@ -39,6 +42,8 @@ namespace APIData.Repos.RssItemRepos
                     using (var reader = await command.ExecuteReaderAsync())
                     {
                         if (!await reader.ReadAsync()) return null;
+
+                        //creating and returning Item with properties from database
                         return new RssItem
                         {
                             Id = reader.GetInt64(0),
@@ -66,6 +71,7 @@ namespace APIData.Repos.RssItemRepos
                     command.CommandText = SelectAll;
                     using (var reader = await command.ExecuteReaderAsync())
                     {
+                        //Getting all items from database
                         while (await reader.ReadAsync())
                         {
                             for (int i = 0; i < reader.FieldCount; i++)

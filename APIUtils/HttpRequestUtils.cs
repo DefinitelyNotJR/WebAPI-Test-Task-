@@ -15,6 +15,7 @@ namespace APIUtils
             string result = "";
             try
             {
+                //Getting data from Uri 
                 using (var client = new HttpClient())
                 {
                     var resp = await client.GetAsync(url);
@@ -22,7 +23,7 @@ namespace APIUtils
                     {
                         throw new Exception();
                     }
-                    if (resp == null)
+                    if (resp.Content == null)
                     {
                         throw new NullReferenceException();
                     }

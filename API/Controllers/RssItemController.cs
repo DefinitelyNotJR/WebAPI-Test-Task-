@@ -20,18 +20,32 @@ namespace API.Controllers
             _rssItemRepos = rssItemRepos;
         }
 
+        // GET api/rssitem
         [HttpGet]
-
         public async Task<RssItem[]> Get()
         {
-            return await _rssItemRepos.GetAll();
+            try
+            {
+                return await _rssItemRepos.GetAll();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        // GET api/values/5
+        // GET api/rssitem/5
         [HttpGet("{id}")]
         public async Task<RssItem> Get(int id)
         {
-            return await _rssItemRepos.Get(id);
+            try
+            {
+                return await _rssItemRepos.Get(id);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

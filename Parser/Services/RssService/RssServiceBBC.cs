@@ -13,6 +13,8 @@ namespace Parser.Services.RssService
     public class RssServiceBBC : IRssService
     {
         private const string UrlBBC = "http://feeds.bbci.co.uk/news/world/rss.xml";
+
+        //Parsing XML document and adding items to the list
         public async Task<RssItem[]> GetRssItems()
         {
             var result = new List<RssItem>();
