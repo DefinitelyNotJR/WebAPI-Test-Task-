@@ -3,10 +3,8 @@
 # About
 
 So the idea is to use two separated programs:
-
-a) **Parser**  —  .NET Core console app that parses web pages and adds the data to existing database (SQLIte is used in this project).
-
-b) **WebAPI** — ASP.NET Core Web API project, that connects to the existing database and returns data. 
+1) **Parser**  —  .NET Core console app that parses web pages and adds the data to existing database (SQLIte is used in this project).
+2) **WebAPI** — ASP.NET Core Web API project, that connects to the existing database and returns data. 
 
 # How to use
 
